@@ -1,19 +1,22 @@
 def new_hash
-  array = {}
+  hash = {}
   
 end
 
 def my_hash
   
-  array = {
+  hash = {
     "name" => "raul"
   }
 
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
-end
+  
+  hash = {
+    name: "Grace Hopper"
+  }
+  
 
 
 def id_hash_generator(number)
